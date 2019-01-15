@@ -28,7 +28,7 @@ class User extends Authenticatable implements MustVerifyEmail
         'password', 'remember_token',
     ];
 
-    public function address()
+    public function addresses()
     {
         return $this->hasMany(UserAddress::class);
     }
