@@ -110,7 +110,10 @@
           amount: $('.cart_amount input').val(),
         })
           .then(function () {
-            swal('加入購物車成功', '', 'success');
+            swal('加入購物車成功', '', 'success')
+                .then(function () {
+                    location.href = '{{ route('cart.index') }}';
+                });
           }, function (error) {
               if (error.response.status === 401) {
                 swal('請先登入', '', 'error');

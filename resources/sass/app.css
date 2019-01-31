@@ -1,21 +1,21 @@
 /*
 Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.
-        on line 9 of app.scss
+        on line 10 of app.scss
 
-4: 
-5: // Variables
-6: @import 'variables';
-7: 
-8: // Bootstrap
-9: @import '~bootstrap/scss/bootstrap';
-10: 
-11: /* universal *\/
-12: 
-13: body {
-14:   font-family: Hiragino Sans GB, "Hiragino Sans GB", Helvetica, "Microsoft YaHei", Arial, sans-serif;
+5: 
+6: // Variables
+7: @import 'variables';
+8: 
+9: // Bootstrap
+10: @import '~bootstrap/scss/bootstrap';
+11: 
+12: /* universal *\/
+13: 
+14: body {
+15:   font-family: Hiragino Sans GB, "Hiragino Sans GB", Helvetica, "Microsoft YaHei", Arial, sans-serif;
 
 Backtrace:
-app.scss:9
+app.scss:10
 /Users/chenyucheng/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /Users/chenyucheng/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
 /Users/chenyucheng/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -58,4 +58,4 @@ app.scss:9
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.\A         on line 9 of app.scss\A \A 4: \A 5: // Variables\A 6: @import 'variables';\A 7: \A 8: // Bootstrap\A 9: @import '~bootstrap/scss/bootstrap';\A 10: \A 11: /* universal */\A 12: \A 13: body {\A 14:   font-family: Hiragino Sans GB, \"Hiragino Sans GB\", Helvetica, \"Microsoft YaHei\", Arial, sans-serif;"; }
+  content: "Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.\A         on line 10 of app.scss\A \A 5: \A 6: // Variables\A 7: @import 'variables';\A 8: \A 9: // Bootstrap\A 10: @import '~bootstrap/scss/bootstrap';\A 11: \A 12: /* universal */\A 13: \A 14: body {\A 15:   font-family: Hiragino Sans GB, \"Hiragino Sans GB\", Helvetica, \"Microsoft YaHei\", Arial, sans-serif;"; }
