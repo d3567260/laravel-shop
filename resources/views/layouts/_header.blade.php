@@ -30,6 +30,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="{{ route('user_addresses.index') }}">收貨地址</a>
+            <a class="dropdown-item" href="{{ route('orders.index') }}">我的訂單</a>
             <a class="dropdown-item" href="{{ route('products.favorites') }}">我的收藏</a>
             <a class="dropdown-item" id="logout" href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit();">登出</a>
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
