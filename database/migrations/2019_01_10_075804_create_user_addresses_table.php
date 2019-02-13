@@ -17,7 +17,7 @@ class CreateUserAddressesTable extends Migration
             $table->increments('id');
             $table->unsignedInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
-            $table->string('province');
+            $table->string('province')->default('');
             $table->string('city');
             $table->string('district');
             $table->string('address');

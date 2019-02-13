@@ -49,7 +49,6 @@
                   </div>
                 </div>
               </select-district>
-              <input type="hidden" name="province" v-model="province">
               <input type="hidden" name="city" v-model="city">
               <input type="hidden" name="district" v-model="district">
               <div class="form-group row">
