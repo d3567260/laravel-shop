@@ -2,11 +2,12 @@
 
 namespace App\Providers;
 
-use App\Policies\OrderPolicy;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use App\Models\UserAddress;
 use App\Policies\UserAddressPolicy;
+use App\Models\Order;
+use App\Policies\OrderPolicy;
 
 class AuthServiceProvider extends ServiceProvider
 {
