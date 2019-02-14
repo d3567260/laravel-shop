@@ -7,7 +7,6 @@ use App\Models\UserAddress;
 use App\Models\Order;
 use App\Services\OrderService;
 use Illuminate\Http\Request;
-use App\Services\CartService;
 
 class OrdersController extends Controller
 {
