@@ -23,10 +23,6 @@
                 <option value="">排序方式</option>
                 <option value="price_asc">價格從低到高</option>
                 <option value="price_desc">價格從高到低</option>
-                <option value="sold_count_desc">銷量從高到低</option>
-                <option value="sold_count_asc">銷量從低到高</option>
-                <option value="rating_desc">評價從高到低</option>
-                <option value="rating_asc">評價從低到高</option>
               </select>
             </div>
           </div>
@@ -47,14 +43,6 @@
                   </div>
                   <div class="title">
                     <a href="{{ route('products.show', ['product' => $product->id]) }}">{{ $product->title }}</a>
-                  </div>
-                </div>
-                <div class="bottom">
-                  <div class="sold_count">
-                    銷量 <span>{{ $product->sold_count }}筆</span>
-                  </div>
-                  <div class="review_count">
-                    評價 <span>{{ $product->review_count }}</span>
                   </div>
                 </div>
               </div>

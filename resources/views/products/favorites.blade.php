@@ -20,10 +20,6 @@
                   <div class="price"><b>NT$</b>{{ $product->price }}</div>
                   <a href="{{ route('products.show', ['product' => $product->id]) }}">{{ $product->title }}</a>
                 </div>
-                <div class="bottom">
-                  <div class="sold_count">銷量 <span>{{ $product->sold_count }}筆</span></div>
-                  <div class="review_count">評價 <span>{{ $product->review_count }}</span></div>
-                </div>
               </div>
             </div>
           @endforeach

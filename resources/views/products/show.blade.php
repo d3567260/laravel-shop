@@ -13,11 +13,6 @@
           <div class="col-7">
             <div class="title">{{ $product->title }}</div>
             <div class="price"><label>價格</label><em>NT$</em><span>{{ $product->price }}</span></div>
-            <div class="sales_and_reviews">
-              <div class="sold_count">累積銷量 <span class="count">{{ $product->sold_count }}</span></div>
-              <div class="review_count">累積評價 <span class="count">{{ $product->review_count }}</span></div>
-              <div class="rating" title="評分 {{ $product->rating }}">評分 <span class="count">{{ str_repeat('★', floor($product->rating)) }}{{ str_repeat('☆', 5 - floor($product->rating)) }}</span></div>
-            </div>
             <div class="skus">
               <label>選擇</label>
               <div class="btn-group btn-group-toggle" data-toggle="buttons">
@@ -50,15 +45,11 @@
             <li class="nav-item">
               <a class="nav-link active" href="#product-detail-tab" aria-controls="product-detail-tab" role="tab" data-toggle="tab" aria-selected="true">商品詳情</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#product-reviews-tab" aria-controls="product-reviews-tab" role="tab" data-toggle="tab" aria-selected="false">用戶評價</a>
-            </li>
           </ul>
           <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="product-detail-tab">
               {!! $product->description !!}
             </div>
-            <div role="tabpanel" class="tab-pane" id="product-reviews-tab"></div>
           </div>
         </div>
       </div>
